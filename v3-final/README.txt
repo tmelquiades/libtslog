@@ -16,4 +16,4 @@ Executar cliente manual:
 Executar teste com 5 clientes simulados:
 bash test_clients.sh 5
 
-Leia o relatório final no arquivo "chat_system_final_report.pdf"
+Leia o relatório final no arquivo [chat_system_final_report.pdf](https://github.com/tmelquiades/libtslog/blob/main/v3-final/chat_system_final_report.pdf)
