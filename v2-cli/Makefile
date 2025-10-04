@@ -1,9 +1,10 @@
-CXX = g++\nCXXFLAGS = -std=c++17 -O2 -pthread -Wall -Wextra
+CXX = g++
+CXXFLAGS = -std=c++17 -O2 -pthread -Wall -Wextra
 
 all: server client
 
 server: server.o tslog.o
-\t$(CXX) $(CXXFLAGS) -o $@ $^
+        $(CXX) $(CXXFLAGS) -o $@ $^
 
 client: client.o
         $(CXX) $(CXXFLAGS) -o $@ $^
