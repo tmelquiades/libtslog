@@ -9,6 +9,7 @@ Conteúdo da v2:
 + arquivos da v1
 
 Como compilar (se necessário, revisite o README da v1):
+sed -i 's/^    /\t/' Makefile
 make
 
 Executar servidor:
